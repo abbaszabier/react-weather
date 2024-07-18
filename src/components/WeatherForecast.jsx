@@ -25,9 +25,9 @@ const GridWrapper = styled.div`
 const DayWrapper = styled.div`
   background: ${(props) =>
     props["data-selected"]
-      ? "#0899ce"
+      ? "#29bbf0"
       : props["data-current"]
-      ? "#0899ce"
+      ? "#29bbf0"
       : "#fff"};
   color: ${(props) =>
     props["data-selected"] ? "#fff" : props["data-current"] ? "#fff" : "#000"};
