@@ -1,5 +1,5 @@
 import "./App.css";
-import WeatherFetcher from "../src/components/WheaterFetch";
+import WeatherFetcher from "../src/components/WeatherFetcher";
 
 function App() {
   return (
