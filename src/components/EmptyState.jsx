@@ -1,4 +1,4 @@
-// component empty state react
+import React from "react";
 import styled from "styled-components";
 import { SearchNormal1 } from "iconsax-react";
 
