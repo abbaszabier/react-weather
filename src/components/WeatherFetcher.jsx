@@ -23,7 +23,6 @@ const WeatherFetcher = () => {
   const [forecastData, setForecastData] = useState(null);
   const [selectedWeather, setSelectedWeather] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
-  console.log(selectedWeather);
 
   const fetchWeather = async (location) => {
     if (!location) {
